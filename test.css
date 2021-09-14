@@ -1,0 +1,53 @@
+html {
+    
+    font-family: 'Roboto', sans-serif !important;
+}
+.container {
+background-color: white;
+}
+
+.display-1 {
+    color:black;
+
+}
+
+
+#navbar {
+
+    background-color: #0a9396;
+    border-radius: 5px;
+    
+}
+
+#navbar ul {
+    margin-left: 25px;
+    }
+
+
+#navbar ul li a{
+    color: black;
+    font-size: larger;
+}
+
+#navbar li:hover{
+    font-weight: bold;
+
+}
+
+#content {
+    color: #0a9396;
+    margin-top: 10px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* #sunset {
+    width: 200px;
+    height: 200px;
+} */

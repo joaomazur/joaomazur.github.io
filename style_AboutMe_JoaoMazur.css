@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#title{ 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000F55 ;
+    
+    text-decoration:none;
+    font-weight: normal;
+    font-size: 70px;
+    font-family: Courier, monospace	;
+    
+
+}
+header {
+align-content: center;
+width: 98vw;
+background-color: whitesmoke;
+}
+
+.menu:hover{
+    transition: background-color .5s, border-radius .5s, border-color .5s, box-shadow .5s;
+    border-radius: 15px;
+    
+}
+.menu1 div {
+    
+    color:black ;
+    display: inline-block;
+
+    text-align: center;
+    align-content: center;
+    vertical-align: text-top;
+
+    border-style: solid;
+    border-width: 1px;
+    min-width: fit-content;
+    background-color: #FFFF99;
+    height: 65px;
+    width: 24vw;
+
+}
+#about {
+    background-color: salmon;
+    box-shadow: 0 0 1.5em .5em salmon;
+
+    
+}
+#finance:hover {
+    background-color:springgreen;
+    box-shadow: 0 0 1.5em .5em springgreen;
+}
+#journal:hover {
+    background-color:mediumpurple;
+    box-shadow: 0 0 1.5em .5em mediumpurple;
+}
+#books:hover {
+    background-color:mediumaquamarine;
+    box-shadow: 0 0 1.5em .5em mediumaquamarine;
+}
+
+p#author {
+    text-decoration: gold underline;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+body{
+    background-color: #ffffff;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #abced4, #abced4 1px, #ffffff 1px, #ffffff);
+    margin: 20px;
+    width: 98vw;
+    height: 100vh;
+    align-content: center;
+}
+#welcome {
+    
+    font-size: 30px;
+    background-color: mistyrose;
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 96vw;
+    
+
+}
+#welcome p:nth-of-type(1) {
+    margin-top: 5px;
+}
+
+
